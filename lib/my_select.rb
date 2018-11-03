@@ -11,7 +11,7 @@ def my_select(collection)
   new_array.compact
 end
 
-number = [1,2,3,4]
+number = [1,2,3,4,5]
 
 my_select(number) do |num|
    if num % 2 == 0
