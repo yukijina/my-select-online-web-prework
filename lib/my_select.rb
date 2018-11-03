@@ -12,7 +12,7 @@ def my_select(collection)
 #     new_array << a
     
 #     i += 1
-  end  
+  #end  
   #new_array.compact
   col
 end
