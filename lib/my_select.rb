@@ -5,7 +5,7 @@ i = 0
   while i < collection.length
     a = yield collection[i]
     if a == true 
-      new_array << a
+      new_array << i
     end
     i += 1
   end  
