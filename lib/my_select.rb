@@ -11,7 +11,7 @@ def my_select(collection)
   puts new_array.compact
 end
 
-number = [1,2,3,4]
+number = [1,2,3,4,5]
 
 my_select(number) do |num|
    num.even?? num : nil
