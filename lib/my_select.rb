@@ -8,7 +8,7 @@ def my_select(collection)
     
      i += 1
   end  
-  puts new_array.compact
+  new_array
 end
 
 number = [1,2,3,4,5]
