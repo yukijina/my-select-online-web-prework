@@ -14,6 +14,6 @@ end
 number = [1,2,3,4,5]
 
 my_select(number) do |num|
-   retur unless num % 2 != 0
+   return unless num % 2 != 0
 end
 
