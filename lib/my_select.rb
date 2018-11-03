@@ -4,7 +4,7 @@ def my_select(collection)
 i = 0
   while i < collection.length
     a = yield collection[i]
-    new_array << a
+    a == true? new_array << a : nil
     
     i += 1
   end  
