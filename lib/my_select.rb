@@ -1,18 +1,13 @@
 def my_select(collection)
 
  new_array = []
- collection.select do |col|
-   if col == true 
-     new_arrray << col 
-   end
- end
-# i = 0
-#   while i < collection.length
-#     a = yield collection[i]
-#     new_array << a
+i = 0
+  while i < collection.length
+    a = yield collection[i]
+    new_array << a
     
-#     i += 1
-#   end  
+    i += 1
+  end  
   new_array
 end
 
