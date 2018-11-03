@@ -1,6 +1,6 @@
 def my_select(collection)
 
- new_array = []
+ #new_array = []
  
  collection.select do |col|
    yield col 
@@ -13,7 +13,8 @@ def my_select(collection)
     
 #     i += 1
   end  
-  new_array.compact
+  #new_array.compact
+  col
 end
 
 number = [1,2,3,4,5]
